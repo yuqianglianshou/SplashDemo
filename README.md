@@ -14,7 +14,7 @@
 
 ## 欢迎Fork，欢迎Star
 
-[https://github.com/tianshaojie/AndroidFine](https://github.com/tianshaojie/AndroidFine)
+[https://github.com/yuqianglianshou/SplashDemo](https://github.com/yuqianglianshou/SplashDemo)
 
 ## 意见或建议
 
