@@ -2,6 +2,7 @@
 <RelativeLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
+	style="@style/Theme.AppCompat.NoActionBar"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent">
 
@@ -19,6 +20,7 @@
 		android:layout_alignParentBottom="true"
 		android:layout_centerHorizontal="true"
 		app:pageColor="#88808080"
+		app:fillColor="#fff"
 		app:strokeWidth="0dp"
 		android:layout_marginBottom="30dp"
 		android:padding="5dp"/>
@@ -28,7 +30,7 @@
 		android:visibility="gone"
 		android:layout_width="140dp"
 		android:layout_height="40dp"
-		android:background="@drawable/btn_orange"
+		android:background="@drawable/bg_white_line"
 		android:text="开启"
 		android:textSize="18sp"
 		android:textColor="#FFFFFF"

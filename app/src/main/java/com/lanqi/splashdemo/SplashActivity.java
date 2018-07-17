@@ -9,6 +9,7 @@ import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
@@ -31,14 +32,15 @@ public class SplashActivity extends FragmentActivity {
     private int[] images = {
             R.mipmap.img1,
             R.mipmap.img2,
-            R.mipmap.img3,
-            R.mipmap.img4
+            R.mipmap.img4,
+            R.mipmap.img3
     };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         final boolean firstTimeUse = getSharedPreferences("data_lq", MODE_PRIVATE).getBoolean(THE_FIRST_TIME, true);
         new Handler().postDelayed(new Runnable() {
